@@ -7,5 +7,4 @@ let open = document.querySelector('.open');
 
 toggleBtn.addEventListener('click',toggleFunciton = () => {
     header.classList.toggle('active');
-    console.log('toggle btn clicked');
 });
